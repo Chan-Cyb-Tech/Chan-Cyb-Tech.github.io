@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>C.M. Portfolio</title>
+
+<style>
+    :root {
+        --primary: #0a3749;
+        --accent: #18b3a6;
+        --light-bg: #f8f9fa;
+        --dark: #1a1a1a;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        background: var(--light-bg);
+        color: var(--dark);
+        line-height: 1.6;
+    }
+
+    /* HEADER */
+    header {
+        background: var(--primary);
+        color: white;
+        padding: 60px 20px;
+        text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { font-size: 1.1rem; margin: 10px 0; }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px 8px;
+        border-radius: 5px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        background: var(--accent);
+        transition: 0.3s;
+    }
+    .btn:hover { background: #149287; }
+
+    /* SECTIONS */
+    section {
+        max-width: 1000px;
+        padding: 50px 20px;
+        margin: auto;
+    }
+    h2 {
+        color: var(--primary);
+        border-left: 6px solid var(--accent);
+        padding-left: 10px;
+        font-size: 1.8rem;
+    }
+
+    .project {
+        background: white;
+        padding: 25px;
+        border-radius: 8px;
+        margin: 20px 0;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        transition: transform 0.2s ease;
+    }
+    .project:hover { transform: translateY(-5px); }
+
+    footer {
+        background: var(--primary);
+        color: white;
+        text-align: center;
+        padding: 20px 10px;
+        font-size: 0.9rem;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>C. M. [Last Name]</h1>
+    <p>Cybersecurity | Data Analysis | Business Analysis | QA | Health Informatics</p>
+    <p>B.S. Mathematics | Security+ (Jan 2026)</p>
+
+    <a href="#" class="btn">Resume (PDF)</a>
+    <a href="https://linkedin.com/in/yourprofile" class="btn">LinkedIn</a>
+</header>
+
+<!-- ABOUT -->
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am an analytical professional with a B.S. in Mathematics, 10+ years of healthcare 
+        experience, and hands-on IT support through roles with Bank of America (HP internship) 
+        and Georgia Elections (TD contract). I am developing strong skills in cybersecurity, 
+        data analysis, business analysis, QA, and health informatics, with experience in 
+        HIPAA/PHI environments, troubleshooting, and workflow improvement.
+    </p>
+</section>
+
+<!-- CYBER PROJECTS -->
+<section>
+    <h2>Cybersecurity Projects</h2>
+
+    <div class="project">
+        <h3>Brute-Force Detection in Splunk</h3>
+        <p>
+            Built SIEM queries to analyze authentication logs, detect suspicious login patterns, 
+            and generate alert rules for potential brute-force attacks.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Healthcare Ransomware Incident Simulation</h3>
+        <p>
+            Completed a simulated ransomware investigation using NIST IR guidelines, 
+            focusing on PHI exposure, log triage, and recovery recommendations.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>PHI Access Monitoring Dashboard</h3>
+        <p>
+            Designed a visual dashboard (Splunk/Power BI) identifying unusual access to patient records, 
+            supporting HIPAA compliance and insider-threat detection.
+        </p>
+    </div>
+</section>
+
+<!-- DATA + BUSINESS ANALYSIS -->
+<section>
+    <h2>Data & Business Analysis Projects</h2>
+
+    <div class="project">
+        <h3>Interactive Data Dashboard</h3>
+        <p>
+            Built dashboards tracking login activity, performance metrics, and healthcare trends using 
+            Power BI/Tableau. Demonstrated data cleaning, modeling, and visualization.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Workflow & Requirements Documentation</h3>
+        <p>
+            Created workflow diagrams and requirements documents based on clinical and IT processes, 
+            showcasing business analysis and documentation skills.
+        </p>
+    </div>
+</section>
+
+<!-- QA PROJECTS -->
+<section>
+    <h2>QA / Software Testing Projects</h2>
+
+    <div class="project">
+        <h3>Manual Test Case Suite</h3>
+        <p>
+            Wrote structured test cases, performed exploratory testing on demo web applications, 
+            and logged bugs with clear reproduction steps.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Intro to Automation Testing</h3>
+        <p>
+            Completed basic automation exercises to understand selectors, assertions, 
+            and testing logic using beginner-level tools.
+        </p>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section>
+    <h2>Professional Experience</h2>
+
+    <div class="project">
+        <h3>Home Health CNA (2012–Present)</h3>
+        <p>
+            Ensured HIPAA-compliant PHI handling, clinical documentation, and patient care. 
+            Strong understanding of healthcare workflows and cross-team communication.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>IT Field Technician — Georgia Elections (TD Contract)</h3>
+        <p>
+            Set up networks, voting systems, and secure equipment at election sites. 
+            Resolved technical issues under strict deadlines and compliance protocols.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>IT Support Intern — HP @ Bank of America</h3>
+        <p>
+            Installed, configured, and supported corporate devices; followed enterprise security procedures; 
+            provided hands-on troubleshooting and ticket support.
+        </p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<footer>
+    <p>© 2025 C.M. Portfolio • Contact: your.email@example.com</p>
+</footer>
+
+</body>
+</html>
