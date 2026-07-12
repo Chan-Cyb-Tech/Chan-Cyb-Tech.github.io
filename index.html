@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chantall Portfolio</title>
+
+<style>
+    :root {
+        --primary: #0a3749;
+        --accent: #18b3a6;
+        --light-bg: #f8f9fa;
+        --dark: #1a1a1a;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        background: var(--light-bg);
+        color: var(--dark);
+        line-height: 1.6;
+    }
+
+    /* HEADER */
+    header {
+        background: var(--primary);
+        color: white;
+        padding: 60px 20px;
+        text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { font-size: 1.1rem; margin: 10px 0; }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px 8px;
+        border-radius: 5px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        background: var(--accent);
+        transition: 0.3s;
+    }
+    .btn:hover { background: #149287; }
+
+    /* SECTIONS */
+    section {
+        max-width: 1000px;
+        padding: 50px 20px;
+        margin: auto;
+    }
+    h2 {
+        color: var(--primary);
+        border-left: 6px solid var(--accent);
+        padding-left: 10px;
+        font-size: 1.8rem;
+    }
+
+    .project {
+        background: white;
+        padding: 25px;
+        border-radius: 8px;
+        margin: 20px 0;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        transition: transform 0.2s ease;
+    }
+    .project:hover { transform: translateY(-5px); }
+
+    footer {
+        background: var(--primary);
+        color: white;
+        text-align: center;
+        padding: 20px 10px;
+        font-size: 0.9rem;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>Chantall</h1>
+    <div class="subtitle">CompTIA Security+ Certified | Electrical Engineering Student | Cybersecurity & Critical Infrastructure/Hardware Security | B.S Mathematics</div>
+    <div class="contact"> 📍 Atlanta, GA • 📞 (678) 485-2788 • ✉️ MChantall@proton.me</div>
+    
+    
+    <a href="Chantall_Resume.pdf" target="_blank" class="btn">View Resume (PDF)</a>
+    <a href="https://linkedin.com/in/chantallm" class="btn">LinkedIn</a>
+    <a href="https://github.com/Chan-Cyb-Tech/soc-homelab" class="btn">GitHub</a>
+</header>
+
+<!-- ABOUT -->
+<section>
+    <h2>Summary</h2>
+    <p>
+      Security+ certified and an Electrical Engineering (minor in Nuclear Engineering) student with a B.S. in Mathematics and 10 years of experience in high-stakes healthcare environments. 
+      Combines strong computational logic and a robust safety-first mindset with technical literacy and software troubleshooting capabilities. 
+      Seeking a Cybersecurity Analyst position or a multi-semester (Spring/Summer/Fall) Critical Infrastructure internship.
+    </p>
+
+    <h2>Education</h2>
+    <div class="school">
+      <strong>Bachelor of Science in Electrical Engineering</strong><br>
+      <em>Kennesaw State University</em> | 📍 Marietta, GA<br>                                                                        
+      📅 Expected Graduation: December 2028<br>              
+      <strong>Minor:</strong> Nuclear Engineering<br>
+      <br>      
+      <strong>Bachelor of Science in Mathematics</strong><br>
+      <em>University of West Georgia</em> | 📍 Carrollton, GA<br>
+      📅 Graduated: 2019<br>                       
+      <strong>Relevant coursework:</strong> Python, Java - Eclipse, Web Development and Design Foundations
+    </div>
+
+    <h2>Certifications</h2>
+    <div class="cert">
+      <strong>CompTIA Security+ (SY0-701)</strong><br>
+      <em>Computing Technology Industry Association (CompTIA)</em><br>
+      📅 Issued: April 2026      
+    </div>
+    
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Languages & Web (Foundational):</strong> Python, Java, SQL, HTML5</li>
+      <li><strong>Operating Systems:</strong> Windows, macOS, Linux</li>
+      <li><strong>Automation & Scripting</strong></li>
+      <li><strong>Tools & Platforms:</strong> Git/GitHub, VirtualBox, Eclipse</li>
+      <li><strong>Security & Monitoring:</strong> Wireshark, Sysmon, Windows Event Viewer (Log Analysis)</li>  
+      <li><strong>Networking:</strong> LAN Concepts, Connectivity Troubleshooting, Device Setup</li>
+      <li><strong>IT Operations:</strong> Ticketing Systems (ITSM), Hardware Deployment, Systems Troubleshooting</li> 
+    </ul>
+
+    <h2>Projects</h2>
+    <div class="job">
+      <div class="job-title"><strong>SOC Home Lab (VirtualBox):</strong> Windows Telemetry + Tier 1 Incident Reports</div>
+      <p><strong>GitHub Repository:</strong>
+        <a href="https://github.com/Chan-Cyb-Tech/soc-homelab" target="_blank">
+          https://github.com/Chan-Cyb-Tech/soc-homelab
+        </a>
+      </p>
+    </div>
+
+    <h2>Experience</h2>
+
+    <div class="job">
+      <div class="job-title"><strong>Certified Nursing Assistant (CNA)</strong><br>
+      Victory Nursing and Home Health | 📅 2019 – Present</div>
+      <ul>
+        <li><em>Regulatory Compliance & Data Privacy:</em> Maintained 100% compliance with HIPAA regulations and state healthcare frameworks, safeguarding sensitive patient data and digital health records with zero privacy infractions over a 10+ year career.</li>
+        <li><em>Technical Asset & Telemetry Monitoring:</em> Operated, calibrated, and monitored specialized medical telemetry hardware and diagnostic equipment; systematically tracked complex data streams to instantly detect and report system anomalies.</li>
+        <li><em>Risk Mitigation & Crisis Management:</em> Evaluated and mitigated environmental risks in fast-paced environments, strictly adhering to safety checklists and procedural protocols to prevent accidents and ensure zero-incident operational safety.</li>
+        <li><em>Quality Assurance & Auditing:</em> Audited daily medical logs, shift handoff charts, and treatment plans with absolute precision, ensuring rigid quality control and error-free compliance with federal guidelines.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-title"><strong>Election Technical Support Specialist</strong><br>
+      TDC Systems Integration INC (Contractor for the State of Georgia Elections) | 📅 2020 – 2022</div>
+      <ul>
+        <li><em>Critical Infrastructure Reliability:</em> Deployed, configured, and maintained critical voting precinct hardware, localized network infrastructure, and electronic peripherals across high-stakes state election cycles.</li>
+        <li><em>Rapid Incident Response:</em> Acted as the primary on-site technical contact to instantly diagnose and resolve urgent network disconnections, physical printer jams, and terminal errors under intense, live environments.</li>
+        <li><em>Downtime Mitigation:</em> Successfully minimized technical bottlenecks and hardware latency, ensuring continuous voter processing and directly preventing line delays.</li>
+        <li><em>Physical Security Awareness:</em> Monitored and maintained the physical integrity and digital port perimeter of on-site election equipment to prevent unauthorized access, data tampering, or local breaches.</li>  
+      </ul>
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<footer>
+    <p>© 2026 Chantall Portfolio    •    Contact: MChantall@proton.me</p>
+</footer>
+
+</body>
+</html>
